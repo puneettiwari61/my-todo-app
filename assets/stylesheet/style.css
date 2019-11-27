@@ -88,7 +88,6 @@ body{
  padding-left: 1rem;
  padding-right: 1rem;
  border: none;
- box-shadow: -2px 5px 10px 1px lightgrey;
  outline: none;
 }
 
@@ -99,7 +98,7 @@ body{
 
 .ul{
     text-align: center;
-    width: 27.5rem;
+    width: 595px;
 }
 
 .list-items{
@@ -115,6 +114,7 @@ body{
     /* -webkit-animation: slide-up .3s ease-out;
     -moz-animation: slide-up .3s ease-out; */
     /* flex-wrap: wrap; */
+
 
 }
 
@@ -139,6 +139,12 @@ body{
 
 .secondinput{
     border-radius: 50px;
+    width: 2rem;
+    height: 1rem;
+    background: white;
+    box-shadow: none;
+    outline: none;
+    border: none;
 }
 
 .secondinput:checked + p {
@@ -150,7 +156,7 @@ body{
 .details {
     display: none;
     border: 1px solid white;
-    width: 27.5rem;
+    width: 595rem;
     line-height: 2rem;
     background: white;
     /* box-shadow: 0 -2px 1px rgba(0,0,0,0.03), rgba(0, 0, 0, 0.2) 0px 1px 1px 0px, rgb(246, 246, 246) 0px 8px 0px -3px, rgba(0, 0, 0, 0.2) 0px 9px 1px -3px, rgb(246, 246, 246) 0px 16px 0px -6px, rgba(0, 0, 0, 0.2) 0px 17px 2px -6px; */
@@ -164,7 +170,7 @@ body{
     display: flex;
     justify-content: space-around;
     border: 1px solid white;
-    width: 27.5rem;
+    width: 595px;
     line-height: 2.3rem;
     background: white;
     box-shadow: 1px 5px 12px 4px rgba(0,0,0,0.03), -10px 25px 16px 8px rgba(0,0,0,0.03), rgba(0, 0, 0, 0.2) 0px 1px 1px 0px, rgb(246, 246, 246) 0px 8px 0px -3px, rgba(0, 0, 0, 0.2) 0px 9px 1px -3px, rgb(246, 246, 246) 0px 16px 0px -6px, rgba(0, 0, 0, 0.2) 0px 17px 17px 0px;
@@ -190,4 +196,40 @@ body{
 @-moz-keyframes slide-up {
     0% { opacity: 0; -moz-transform: translateY(-100%); }   
   100% { opacity: 1; -moz-transform: translateY(0); }
+}
+
+.btn{
+    box-shadow: none;
+    border: none;
+    color: #ca8383;
+    /* outline: none; */
+    background:white;
+    /* font-size: x-large; */
+    padding: 0;
+}
+
+#itemsleft,.span2 {
+    padding-right: 7px;
+    color: #ca8383;
+    font-size: 0.7rem;
+}
+
+.white{
+    background: white;
+    box-shadow: -2px 5px 10px 1px lightgrey;
+
+}
+
+.fas {
+    font-size: 1.2rem;
+    color: grey;
+    padding-left: 0.5rem;
+}
+
+.paran{
+    word-break: break-all;
+}
+
+#hideit {
+    visibility: hidden;
 }
